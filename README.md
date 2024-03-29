@@ -10,7 +10,7 @@ The models have been trained on kaggle using Tesla P100 GPU and inferencing is p
 - Accuracy: 93.41%  
 - Loss: 0.1737 
 - Time taken to train:
-- Machine specification :
+- Machine specification: Google Colab (Intel Xeon CPU with 2vCPUs and 13GB RAM)
 
 ### Specification of Age Model 
 - Loss: 48.1983
