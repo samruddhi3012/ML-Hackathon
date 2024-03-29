@@ -56,6 +56,8 @@ UTKFace dataset is a large-scale face dataset with long age span (range from 0 t
   <li>topgender_weights.keras</li>
     <ul> <a href="https://drive.google.com/file/d/1LVEYwvXk3-qeNgKF_x1s-ccLTjv3Jg2o/view?usp=drivesdk"> </a>
     </ul>
+  - [topgender_weights.keras](https://drive.google.com/file/d/1LVEYwvXk3-qeNgKF_x1s-ccLTjv3Jg2o/view?usp=drivesdk)
+
   <li>gender-and-age-prediction.ipynb</li>
     <ul> The Jupyter notebook presents a comprehensive deep learning pipeline designed for gender and age inference from images employing TensorFlow/Keras. The process encompasses image data preprocessing, segmentation into training, validation, and testing subsets, and the establishment of data generators to facilitate batch processing. Two distinct models are constructed for gender and age prediction, leveraging pre-trained MobileNetV2 architectures as feature extractors. Model training incorporates callback mechanisms for model checkpointing and early stopping. Upon evaluation with test data, the models demonstrate promising performance, achieving high accuracy of 93.41% in gender prediction and minimal mean absolute error of 4.9132 in age estimation.
     </ul>
