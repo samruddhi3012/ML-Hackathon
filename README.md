@@ -51,8 +51,7 @@ UTKFace dataset is a large-scale face dataset with long age span (range from 0 t
     </ul>
   <li>A few pictures for training and testing of model.</li>
   <li>topage_weights.keras</li>
-    <ul> This keras file contains the learned weights and biases essential for constructing the age model architecture. By storing these parameters separately, the model architecture can be reconstructed with pre-trained weights, enabling efficient inference on new data without the necessity of retraining.
-    </ul>
+    <ul> https://drive.google.com/file/d/1LoWfP2epBJUcdLkaYamJSg7kHHZhhMAH/view?usp=drivesdk </ul>
   <li>topgender_weights.keras</li>
     <ul>https://drive.google.com/file/d/1LVEYwvXk3-qeNgKF_x1s-ccLTjv3Jg2o/view?usp=drivesdk
     </ul>
