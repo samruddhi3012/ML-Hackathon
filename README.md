@@ -12,10 +12,9 @@ The models have been trained on kaggle using Tesla P100 GPU and inferencing is p
 - Time taken to train: 44.8 mins
 
 ### Specification of Age Model 
-- Loss: 48.1983
 - Mean absolute error: 4.9132
 - Time taken to train: 41.2 mins
-- 
+
 ### Machine specification: 
 - Google Colab (Intel Xeon CPU with 2vCPUs and 13GB RAM)
 - Tesla P100 16GB GPU
