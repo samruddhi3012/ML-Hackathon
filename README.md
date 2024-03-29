@@ -61,8 +61,6 @@ UTKFace dataset is a large-scale face dataset with long age span (range from 0 t
  </ul>
  
 ## Input and Output Images
-- Input Image:
-![jpeg](sample.jpeg)
+- Input Image: ![jpeg](sample.jpeg)
 
-- Output Image:
-![jpeg](sample_pred.jpeg)
+- Output Image: ![jpeg](sample_pred.jpeg)
