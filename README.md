@@ -1,32 +1,33 @@
 # ML-Hackathon
-<h2>Objective :</h2>
+
+## 💡 Objective :
 <p>To develop a gender and age detection system that can accurately determine the gender and age of the person (face) from human face images and real-time video streams from mobile camera.</p>
 
-<h2>About the Project :</h2>
+## 💡 About the Project 
 <p>We build deep learning models to predict age and gender from face pictures and real time video streams, which make use of TensorFlow and Keras. In this project, we have used MobileNetV2 as a foundational model, augmenting it with more thick layers. Custom data generators are used to apply data augmentation strategies during training. Appropriate optimization strategies, loss functions, and assessment measures are integrated into the models. To make training and monitoring more efficient, we've included callbacks like ModelCheckpoint, EarlyStopping, and ReduceLROnPlateau. 
 The models have been trained on kaggle using Tesla P100 GPU and inferencing is performed on google colab.
 
-### :round_pushpin: Specification of Gender Model 
-- Accuracy: 93.41%  
-- Loss: 0.1737 
-- Time taken to train: 44.8 mins
+  ### 🎯: Specification of Gender Model 
+  - Accuracy: 93.41%  
+  - Loss: 0.1737 
+  - Time taken to train: 44.8 mins
+  
+  ### 🎯 Specification of Age Model 
+  - Mean absolute error: 4.9132
+  - Time taken to train: 41.2 mins
+  
+  ### 🎯 Machine specification: 
+  - Google Colab (Intel Xeon CPU with 2vCPUs and 13GB RAM)
+  - Tesla P100 16GB GPU
+  - Kaggle
+  </p>
 
-### :round_pushpin: Specification of Age Model 
-- Mean absolute error: 4.9132
-- Time taken to train: 41.2 mins
-
-### :round_pushpin: Machine specification: 
-- Google Colab (Intel Xeon CPU with 2vCPUs and 13GB RAM)
-- Tesla P100 16GB GPU
-- Kaggle
-</p>
-
-<h2>Dataset :</h2>
+## 💡 Dataset 
 <p>For this project, we have used the UTKFace dataset; the dataset is available in the public domain and you can find it <a href="https://www.kaggle.com/datasets/jangedoo/utkface-new">here</a>. 
 
 UTKFace dataset is a large-scale face dataset with long age span (range from 0 to 116 years old). The dataset consists of over 20,000 face images with annotations of age, gender, and ethnicity. The images cover large variation in pose, facial expression, illumination, occlusion, resolution, etc. This dataset could be used on a variety of tasks, e.g., face detection, age estimation, age progression/regression, landmark localization, etc. The models I used had been trained on this dataset.</p>
 
-<h2>Python Libraries Required :</h2>
+## 💡 Python Libraries Required :
 <ul>
   <li>OpenCV</li>
   
@@ -43,7 +44,7 @@ UTKFace dataset is a large-scale face dataset with long age span (range from 0 t
        pip install keras
 </ul>
 
-<h2>The contents of this Project :</h2>
+## 💡 The contents of this Project :
 <ul>
   <li>GenderAgeInference.ipynb</li>
     <ul> The code implements gender and age prediction from facial images using TensorFlow and Keras. It defines models for gender and age prediction using the MobileNetV2 architecture, loads pre-trained weights, and provides utility functions for image processing, face detection, and prediction visualization. Sample images are processed, faces are detected, and gender and age predictions are made, with bounding boxes and labels drawn on the images. Overall, it showcases deep learning techniques for facial analysis in a concise and efficient manner.
@@ -60,7 +61,7 @@ UTKFace dataset is a large-scale face dataset with long age span (range from 0 t
     </ul>
  </ul>
  
-## :round_pushpin: Input and Output Images
+## 💡 Input and Output Images
 
 - Input Image:  
   ![Input Image](sample3.jpeg)
