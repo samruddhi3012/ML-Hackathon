@@ -6,16 +6,16 @@
 <p>We build deep learning models to predict age and gender from face pictures and real time video streams, which make use of TensorFlow and Keras. In this project, we have used MobileNetV2 as a foundational model, augmenting it with more thick layers. Custom data generators are used to apply data augmentation strategies during training. Appropriate optimization strategies, loss functions, and assessment measures are integrated into the models. To make training and monitoring more efficient, we've included callbacks like ModelCheckpoint, EarlyStopping, and ReduceLROnPlateau. 
 The models have been trained on kaggle using Tesla P100 GPU and inferencing is performed on google colab.
 
-### Specification of Gender Model 
+### :round_pushpin: Specification of Gender Model 
 - Accuracy: 93.41%  
 - Loss: 0.1737 
 - Time taken to train: 44.8 mins
 
-### Specification of Age Model 
+### :round_pushpin: Specification of Age Model 
 - Mean absolute error: 4.9132
 - Time taken to train: 41.2 mins
 
-### Machine specification: 
+### :round_pushpin: Machine specification: 
 - Google Colab (Intel Xeon CPU with 2vCPUs and 13GB RAM)
 - Tesla P100 16GB GPU
 - Kaggle
@@ -60,7 +60,7 @@ UTKFace dataset is a large-scale face dataset with long age span (range from 0 t
     </ul>
  </ul>
  
-## Input and Output Images
+## :round_pushpin: Input and Output Images
 
 - Input Image:  
   ![Input Image](sample3.jpeg)
